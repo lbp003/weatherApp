@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $('#switch').hide();
     $('.line').hide();
-    $('.footer-text').html('&copy '+new Date().getFullYear()+' LBP');
+    $('.footer-text').html('&copy '+new Date().getFullYear()+' LBP003');
     $('.footer').css({backgroundColor: 'gray', color: '#ffffff', paddingLeft: '90%'});
 
     if(navigator.geolocation){
